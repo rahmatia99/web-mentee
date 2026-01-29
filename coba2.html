@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flodemi</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="coba2.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg bg-white border-bottom py-3">
+    <div class="container">
+      <div class="row align-items-center w-100">
+
+        <!-- LOGO -->
+        <div class="col-6 col-lg-3">
+          <img src="assets/LOGO.png" alt="">
+        </div>
+
+        <!-- SEARCH -->
+        <div class="col-12 col-lg-6 order-3 order-lg-2 mt-3 mt-lg-0">
+          <form class="search-box d-none d-lg-block d-lg-flex w-100">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-search search-icon"
+              viewBox="0 0 16 16">
+              <path
+                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+            </svg>
+            <input class="form-control rounded-pill" type="search" placeholder="Cari...">
+          </form>
+        </div>
+
+        <!-- BUTTON -->
+        <div class="col-6 col-lg-3 d-flex justify-content-end gap-2 order-2 order-lg-3">
+          <a href="#" class="btn btn-outline-purple rounded-pill">Daftar</a>
+          <a href="#" class="btn btn-purple rounded-pill text-white">Masuk</a>
+        </div>
+
+      </div>
+    </div>
+  </nav>
+
+
+
+
+  <!-- HEADER KELAS -->
+  <section class="kelas-header">
+    <div class="container">
+      <p class="kelas-small text-center">Kelas Online</p>
+      <h2 class="kelas-judul text-center">UI/UX Design</h2>
+    </div>
+  </section>
+
+  <!-- INFO BAR -->
+  <section class="info-bar">
+    <div class="container">
+      <div class="info-row">
+        <span>Mentor : Zikra</span>
+
+        <span class="rating">
+          ⭐⭐⭐⭐⭐ <small>(122)</small>
+        </span>
+
+        <span class="harga">
+          Rp299.000,-
+          <del>Rp400.000</del>
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFIT -->
+  <section class="benefit-wrap">
+    <div class="container">
+      <h6 class="benefit-title">Benefit</h6>
+
+      <div class="row g-4">
+        <div class="col-md-3">
+          <div class="benefit-box">
+            <div class="check">✓</div>
+            <p>Akses grup<br>belajar</p>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="benefit-box">
+            <div class="check">✓</div>
+            <p>Live Session</p>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="benefit-box">
+            <div class="check">✓</div>
+            <p>e-Modul</p>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="benefit-box">
+            <div class="check">✓</div>
+            <p>e-Sertifikat</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+ <!-- KONTEN UTAMA -->
+  <section class="kelas-main">
+    <div class="container">
+      <div class="row align-items-start g-4">
+
+        <!-- GAMBAR -->
+        <div class="col-md-8">
+          <div class="kelas-image">
+            <img src="assets/course.png" alt="UI UX Design">
+          </div>
+        </div>
+
+        <!-- MODUL -->
+        <div class="col-md-4">
+          <div class="modul-card">
+
+            <!-- HEADER -->
+            <div class="modul-top">
+              <span class="modul-count">3 Modul</span>
+              <span class="modul-time">(60 Menit)</span>
+            </div>
+
+            <!-- LIST MODUL -->
+            <div class="modul-item">
+              <h6>1. Pengenalan UI/UX Design</h6>
+              <div class="file-box">File PDF</div>
+            </div>
+
+            <div class="modul-item">
+              <h6>2. Pengenalan UI/UX Design</h6>
+              <div class="file-box">File PDF</div>
+            </div>
+
+            <div class="modul-item">
+              <h6>3. Pengenalan UI/UX Design</h6>
+              <div class="file-box">File PDF</div>
+            </div>
+
+            <!-- BUTTON -->
+            <div class="text-center">
+              <button class="btn btn-purple px-5 rounded-pill">
+                Gabung Kelas
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- DESKRIPSI -->
+  <section class="kelas-deskripsi">
+    <div class="container">
+      <h5>Deskripsi</h5>
+
+      <p><strong>Selamat datang di kelas UI/UX Design.</strong></p>
+
+      <p>
+        Di kelas ini, kita akan belajar bagaimana menggunakan Jitter, sebuah tools
+        canggih untuk membuat prototype, untuk meningkatkan kemampuan desain UX
+        kita dan menciptakan pengalaman pengguna yang menarik.
+        Micro interaction adalah bagaimana kita membuat sebuah tampilan animasi
+        yang responsif serta dapat membuat antarmuka digital kita terlihat hidup.
+      </p>
+
+      <p>
+        Selama kelas ini, kita akan mempelajari lebih dalam tentang micro interaction
+        dalam UX, dan bagaimana hal itu mempengaruhi keterlibatan pengguna,
+        hubungan emosional, dan kegunaan secara keseluruhan.
+        Kita akan menjelajahi prinsip desain, praktik terbaik,
+        dan contoh-contoh nyata untuk membangun dasar yang kuat sesuai dengan
+        prinsip micro interaction.
+      </p>
+    </div>
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer class="footer-section">
+    <div class="container">
+      <div class="row text-white">
+
+        <!-- Tentang Kami -->
+        <div class="col-md-4 mb-4 mb-md-0">
+          <h6 class="fw-bold">Tentang Kami</h6>
+          <p class="mb-1">PT. Flashsoft Indonesia</p>
+          <p class="mb-0">
+            Jl. Naga Sakti, Kecamatan Tampan,<br>
+            Pekanbaru, Riau, Indonesia
+          </p>
+        </div>
+
+        <!-- Sosial Media -->
+        <div class="col-md-4 mb-4 mb-md-0 text-md-center">
+          <h6 class="fw-bold">Sosial Media</h6>
+          <div class="d-flex justify-content-md-center gap-3 mt-2">
+            <img src="assets/Instagram logo.png" alt="Instagram" class="footer-icon">
+            <img src="assets/Telegram logo.png" alt="Telegram" class="footer-icon">
+          </div>
+        </div>
+
+        <!-- Kontak -->
+        <div class="col-md-4 text-md-end">
+          <h6 class="fw-bold">Kontak</h6>
+          <p class="mb-0">
+            <img src="assets/Whatsapp logo.png" class="footer-icon-sm">
+            +62 853-6838-4829
+          </p>
+        </div>
+
+      </div>
+
+      <hr class="footer-line">
+
+      <p class="text-center mb-0 text-white">
+        © Copyright 2025 || Flashsoft Indonesia
+      </p>
+    </div>
+  </footer>
+
+
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
