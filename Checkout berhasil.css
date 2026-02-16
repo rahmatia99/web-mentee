@@ -235,17 +235,10 @@
     line-height: 1.6;
 }
 
-/* ICON FOOTER */
-.footer-icon {
-    width: 35px;
-    height: 35px;
-    cursor: pointer;
-}
-
+.footer-icon,
 .footer-icon-sm {
-    width: 30px;
-    height: 30px;
-    margin-right: 6px;
+    aspect-ratio: 1 / 1;   /* Paksa tetap kotak */
+    object-fit: contain;
 }
 
 /* GARIS */

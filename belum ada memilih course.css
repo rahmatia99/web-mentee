@@ -94,7 +94,6 @@
     border-radius: 50%;
 }
 
-
 /* ================= FOOTER ================= */
 .footer-section {
     background-color: #9F66AF;
@@ -111,17 +110,10 @@
     line-height: 1.6;
 }
 
-/* ICON FOOTER */
-.footer-icon {
-    width: 35px;
-    height: 35px;
-    cursor: pointer;
-}
-
+.footer-icon,
 .footer-icon-sm {
-    width: 30px;
-    height: 30px;
-    margin-right: 6px;
+    aspect-ratio: 1 / 1;   /* Paksa tetap kotak */
+    object-fit: contain;
 }
 
 /* GARIS */
@@ -130,11 +122,7 @@
     margin: 30px 0 15px;
 }
 
-.footer-icon,
-.footer-icon-sm {
-    aspect-ratio: 1 / 1;   /* Paksa tetap kotak */
-    object-fit: contain;
-}
+
 
 /* =====================
    WRAPPER
@@ -215,7 +203,7 @@
 .content-title {
   font-size: 24px;
   font-weight: 600;
-  color: #7b3f98;
+  color: #9F66AF;
 }
 
 .content-subtitle {
