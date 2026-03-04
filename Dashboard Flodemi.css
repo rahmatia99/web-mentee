@@ -83,6 +83,63 @@
     box-shadow: none;
 }
 
+/* ================= NAVBAR ACTIVE FIX ================= */
+
+/* Warna default link */
+.navbar .nav-link {
+    color: #9F66AF !important;
+    font-weight: 500;
+    position: relative;
+}
+
+/* Hover tetap ungu */
+.navbar .nav-link:hover {
+    color: #9F66AF !important;
+}
+
+/* Saat ACTIVE tetap ungu */
+.navbar .nav-link.active {
+    color: #9F66AF !important;
+}
+
+/* Garis bawah active */
+.navbar .nav-link.active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 2px;
+    background-color: #9F66AF;
+}
+
+/* ================= MOBILE NAVBAR ================= */
+
+.mobile-search {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+/* Perkecil tombol di mobile */
+@media (max-width: 991px) {
+    .btn-purple,
+    .btn-outline-purple {
+        padding: 4px 14px;
+        font-size: 13px;
+    }
+
+    .navbar-brand {
+        font-size: 20px;
+    }
+}
+
+/* ================= SPACING SEARCH HERO ================= */
+
+.search-hero-wrapper {
+    margin-top: 50px;     /* JARAK dari HERO (diperbesar) */
+    margin-bottom: 2px;  /* JARAK ke bawah (diperkecil) */
+}
 /* ================= HERO ================= */
 .hero-section {
     background-color: #9F66AF;
@@ -115,6 +172,39 @@
     max-width: 300px;     /* SEDIKIT DIKECILKAN */
     width: 100%;
     height: auto;
+}
+
+/* ================= SEARCH BAWAH HERO ================= */
+
+.search-hero {
+    width: 220px;
+    height: 36px;          /* sedikit lebih balance */
+    font-size: 13px;
+    border: 2px solid #9F66AF;
+    border-radius: 50px;
+    padding-left: 45px;    /* ruang icon diperbesar */
+    background-color: #ffffff;
+}
+
+.search-hero:focus {
+    border-color: #9F66AF;
+    box-shadow: none;
+}
+
+/* ================= SEARCH HERO ICON FIX ================= */
+
+.search-hero-wrapper form {
+    position: relative;
+}
+
+.search-hero-icon {
+    position: absolute;
+    left: 20px;              /* lebih masuk & pas */
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;         /* lebih proporsional */
+    color: #000000 !important; /* PAKSA HITAM */
+    pointer-events: none;
 }
 
 /* ================= KATEGORI ================= */
